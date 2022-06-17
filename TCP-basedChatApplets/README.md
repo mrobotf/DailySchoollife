@@ -2,6 +2,7 @@
 
 ## 客户端向服务器发送数据
 字节流按字节传输，更节省空间，因此采用字节流传输(InputStream, OutputStream)。
+
 `OutputStream osw = socket.getOutputStream();`
 
 传输完成后，我们不能具体控制流中的数据，因此转成字符流进行控制。并保证编码一致
